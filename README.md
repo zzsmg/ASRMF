@@ -6,4 +6,7 @@ Set the paths to the local project root, LR, and HR, respectively
 ### Train
 1. Attention! During the training phase, uncomment the four lines of code in 'models/modules/sft_arch.py', which begin with fea1, fea2, fea3, fea4. (Marked in the py file)  
 2. Run the following command on the terminal  
-`python train.py`  
+`python train.py`
+### Test
+1. Attention! During the test phase, comment out the four lines of code in 'models/modules/sft_arch.py', starting with fea1, fea2, fea3, fea4. (Marked in the py file)
+2. 
